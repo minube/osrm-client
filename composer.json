@@ -1,0 +1,25 @@
+{
+  "name": "minube/osrm-client",
+  "description": "API client for the OSRM project",
+  "homepage": "http://minube.com",
+  "keywords": [
+    "osrm",
+    "sdk"
+  ],
+  "type": "library",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "Minube",
+      "homepage": "http://www.minube.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Osrm\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=5.3.3"
+  }
+}
