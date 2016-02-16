@@ -26,7 +26,7 @@ class Client
 
     /**
      * The 'viaroute' implementation of the OSRM server API.
-     * @return DrivingInstructions
+     * @return DrivingInstruction
      * @throws OsrmException
      * coordinates. Two arguments (from/to) must be provided.
      */
